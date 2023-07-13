@@ -15,7 +15,7 @@ JavaScript: Permite que la página diseñada en html y css sea interactiva
 
 Se puede ver la estructura de toda las páginas web al dar botón derecho y en INSPECT. Se abrirá una ventana con el código html
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled.png)
+![Untitled](img/Untitled.png)
 
 # Editores de Código
 
@@ -23,17 +23,17 @@ Visual Studio Code
 
 Creamos una nueva carpeta de trabajo llamada Curso HTML y CSS
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 # Crear un archivo HTML
 
 Vamos a crear el primer archivo, es un estandar que el archivo principal index.html
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 En la primera línea vamos a escribir que versión de html vamos a usar en nuestro archivo. DEBE SER LA PRIMERA LÍNEA QUE TENGAN TODOS LOS ARCHIVOS HTML
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
 
 # Elementos y Etiquetas
 
@@ -41,19 +41,19 @@ Elemento: Componente básico de un archivo html. Usamos los elementos para defin
 
 Etiquetas: Las etiquetas no permiten definir los elemntos en un archivo html. Especifivan el tipo de elemento que vamos a usar
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%204.png)
+![Untitled](img/Untitled%204.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%206.png)
+![Untitled](img/Untitled%206.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%207.png)
+![Untitled](img/Untitled%207.png)
 
 Hay etiquetas que no requieren etiquetas de cierre como <img>, es opcional colocar el cierre.
 
 ## Nuestro primer archivo
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%208.png)
+![Untitled](img/Untitled%208.png)
 
 <html></html> se considera el elemento raíz, ya que dentro de este elemetno de la página van todos los demás elementos
 
@@ -65,41 +65,41 @@ Dentro de Body van los elemntos que van a dar la estructura de la página
 
 # Especificar Idioma
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%209.png)
+![Untitled](img/Untitled%209.png)
 
 # Crear Encabezados
 
 Se crean dentro de body
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2010.png)
+![Untitled](img/Untitled%2010.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2011.png)
+![Untitled](img/Untitled%2011.png)
 
 # Párrafos
 
 <p></p> es el elemtno para crear párrafos. Si el párrafo es muy largo, con ALT+Z este se acomoda al ancho de la ventana del edito de código
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2012.png)
+![Untitled](img/Untitled%2012.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2013.png)
+![Untitled](img/Untitled%2013.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2014.png)
+![Untitled](img/Untitled%2014.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2015.png)
+![Untitled](img/Untitled%2015.png)
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2016.png)
+![Untitled](img/Untitled%2016.png)
 
 # Buscar en la Documentación
 
 Buscar información de elementos en la documentación de desarrolladores de Mozilla. MDN WEB DOCS
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2017.png)
+![Untitled](img/Untitled%2017.png)
 
 # Comentarios en HTML
 
 Nos sirven para ubicarnos y poner texto de referencia en las lineas de código. No afecta el contenido de la página. <!— COMENTARIO—>. Para volver una línea comentario, se puede usar el atajo CTRL+/ 
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2018.png)
+![Untitled](img/Untitled%2018.png)
 
 # Elemento main
 
@@ -107,7 +107,7 @@ El **elemento HTML `<main>`** representa el contenido principal del `[<body>
 
 **Nota:** **no debe haber** más de un elemento `<main>` en un documento, y este **no debe ser** descendiente de un elemento `[<article>](https://developer.mozilla.org/es/docs/Web/HTML/Element/article)`, `[<aside>](https://developer.mozilla.org/es/docs/Web/HTML/Element/aside)`, `[<footer>](https://developer.mozilla.org/es/docs/Web/HTML/Element/footer)`, `[<header>](https://developer.mozilla.org/es/docs/Web/HTML/Element/header)`, o `[<nav>](https://developer.mozilla.org/es/docs/Web/HTML/Element/nav)`.
 
-![Untitled](Desarrollo%20Web%20fa459e1545044a29b400e30f0b0276c4/Untitled%2019.png)
+![Untitled](img/Untitled%2019.png)
 
 # Indentación
 
