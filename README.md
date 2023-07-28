@@ -1,7 +1,7 @@
 # Desarrollo Web
 
 Date Created: 8 de julio de 2023 13:04
-Status: Doing
+Status: Done 🙌
 
 # Introducción a HTML y CSS
 
@@ -129,7 +129,7 @@ atributo alt: da una descripción a la imagen por si hay una problema al cargar 
 
 ![Untitled](img/Untitled%2023.png)
 
-También se puede halar una imagen que este en una carpe. Se recomienda usar una carpeta que se llame img y alojar las imagenes allí. En src se coloca la ubicación de la imagen
+También se puede halar una imagen que este en una carpeta. Se recomienda usar una carpeta que se llame img y alojar las imagenes allí. En src se coloca la ubicación de la imagen
 
 ![Untitled](img/Untitled%2024.png)
 
@@ -377,7 +377,7 @@ Luego en el CSS se pega el texto que muestra la página
 
 ![Untitled](img/Untitled%2073.png)
 
-Podemos descargar varias fuentes, colocarlas en el head y usarlas a los largo de la pagina segun queramos
+Podemos descargar varias fuentes, colocarlas en el head y usarlas a los largo de la pagina según queramos
 
 # Cambiar el tamaño de las imágenes
 
@@ -594,3 +594,25 @@ Una variable es un nombre que se le da a un valor, para poder usarlo más adelan
 ![Untitled](img/Untitled%20123.png)
 
 ![Untitled](img/Untitled%20124.png)
+
+# Compatibilidad de variables
+
+Se recomienda usar valores de respaldo en las variables
+
+![Untitled](img/Untitled%20125.png)
+
+y si se desea tener un respaldo, pues hay navegadores que no son compatibles con las variables CSS se recomienda dar un respaldo de la siguiente manera
+
+![Untitled](img/Untitled%20126.png)
+
+# Herencia de variables CSS
+
+Cuando se asignan variables, estas quedan asignadas a las clases. Si se desea que se aplique a todo el archivo html, se hace de la siguiente manera
+
+![Untitled](img/Untitled%20127.png)
+
+# Cambiar Variable para un Área Específica
+
+Se define la variable en root, y luego, en las clases que se desea cambiar se define nuevamente
+
+![Untitled](img/Untitled%20128.png)
